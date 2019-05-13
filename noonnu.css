@@ -61,7 +61,7 @@ li {
 
 /* topMenu */
 
-/* recommend &  */
+/* recommend & all*/
 .row .col.s12 {
     width: 100%;
     margin-left: auto;
@@ -152,7 +152,201 @@ textarea {
 
 }
 
-/* recommend & */
+/* all */
+
+.row {
+    width: 80%;
+    margin-bottom: 0px;
+}
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.filtering {
+    margin: 27px 0px 15px;
+}
+
+#category_uses, #category_styles {
+    margin-bottom: 10px;
+}
+
+.filtering .checkBox {
+    margin: 0px 5px;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+input[type="checkbox"], input[type="radio"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.filtering .label-font {
+    font-size: 16.5px;
+    color: #212121;
+    padding-left: 32px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+[type="checkbox"]+label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* all */
+
+/* recommend & all */
+
+/* introduce */
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0px;
+    z-index: 1;
+}
+
+.row {
+    width: 80%;
+    margin-bottom: 0px;
+}
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.about-contents {
+    margin: 50px 0px 80px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.about-contents .service {
+    margin-bottom: 40px;
+}
+
+.about-contents .service-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.p-none {
+    display: none;
+}
+br {
+    font-family: dotum;
+}
+
+.about-contents .service-contents {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 400;
+}
+
+.about-contents .service-contents.team-intro {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.about-contents .service-contents {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 400;
+}
+
+.about-contents .service-contents.team-intro .team-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.team-member:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.strong {
+    font-weight: 600;
+}
+
+.about-contents .service-contents.team-intro {
+    width: 70%;
+    margin: 50px auto;
+}
+.about-contents .service-contents {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 400;
+}
+
+.team-intro .team-member li {
+    width: 33%;
+    display: inline-block;
+    border-bottom: 0;
+    padding: 10px 0px;
+}
+
+ul:not(.browser-default)>li {
+    list-style-type: none;
+}
+.about-contents li {
+    font-size: 18px;
+    border-bottom: 1px #ddd solid;
+    padding: 18px 0px;
+    line-height: 1.3;
+}
+
+.team-intro .team-member li .team-posi {
+    font-size: 15.5px;
+    margin-top: 6px;
+    display: inline-block;
+}
+
+.about-contents .intro-ex-add {
+    text-align: center;
+}
+.intro-ex-add {
+    font-size: 16.5px;
+    color: #aaa;
+    line-height: 1.5;
+}
+
+/* introduce */
 
 /* footer */
 .footer {
